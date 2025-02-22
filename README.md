@@ -20,7 +20,7 @@ CTRL X Y ENTER
 
 
 
-Tambah alamat address
+Untuk Tambah alamat address 
 ```
 nano recipients.txt
 ```
