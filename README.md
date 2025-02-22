@@ -16,6 +16,7 @@ Masukan PK
 ```
 nano .env
 ```
+CTRL X Y ENTER
 tambah alamat address
 ```
 nano recipients.txt
