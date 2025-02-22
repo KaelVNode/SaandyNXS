@@ -8,7 +8,7 @@ cd SaandyNXS
 npm install
 ```
 ```
-npm install ethers dotenv chalk@4 readline fs
+npm install ethers dotenv chalk@4 readline fs ora axios
 
 ```
 Masukan PK 
