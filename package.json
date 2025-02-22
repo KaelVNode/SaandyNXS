@@ -1,0 +1,25 @@
+{
+  "name": "saandynxs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "NextCrot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node NextCrot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaelVNode/SaandyNXS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaelVNode/SaandyNXS/issues"
+  },
+  "homepage": "https://github.com/KaelVNode/SaandyNXS#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5"
+  }
+}
