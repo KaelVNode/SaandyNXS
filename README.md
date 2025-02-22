@@ -8,7 +8,7 @@ cd SaandyNXS
 npm install
 ```
 ```
-npm install ethers dotenv chalk readline fs
+npm install ethers dotenv chalk@4 readline fs
 
 ```
 Masukan PK 
