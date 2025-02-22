@@ -6,6 +6,19 @@ const readline = require("readline");
 
 dotenv.config();
 
+console.log(chalk.cyan(`
+  ██████ ▄▄▄     ▄▄▄      ███▄    █▓█████▓██   ██▓
+▒██    ▒▒████▄  ▒████▄    ██ ▀█   █▒██▀ ██▒██  ██▒
+░ ▓██▄  ▒██  ▀█▄▒██  ▀█▄ ▓██  ▀█ ██░██   █▌▒██ ██░
+  ▒   ██░██▄▄▄▄█░██▄▄▄▄██▓██▒  ▐▌██░▓█▄   ▌░ ▐██▓░
+▒██████▒▒▓█   ▓██▓█   ▓██▒██░   ▓██░▒████▓ ░ ██▒▓░
+▒ ▒▓▒ ▒ ░▒▒   ▓▒█▒▒   ▓▒█░ ▒░   ▒ ▒ ▒▒▓  ▒  ██▒▒▒ 
+░ ░▒  ░ ░ ▒   ▒▒ ░▒   ▒▒ ░ ░░   ░ ▒░░ ▒  ▒▓██ ░▒░ 
+░  ░  ░   ░   ▒   ░   ▒     ░   ░ ░ ░ ░  ░▒ ▒ ░░  
+      ░       ░  ░    ░  ░        ░   ░   ░ ░     
+                                    ░     ░ ░     
+`));
+
 const provider = new ethers.JsonRpcProvider("https://rpc.nexus.xyz/http");
 const privateKey = process.env.PRIVATE_KEY;
 
