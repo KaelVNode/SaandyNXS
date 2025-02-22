@@ -17,10 +17,16 @@ Masukan PK
 nano .env
 ```
 CTRL X Y ENTER
-tambah alamat address
+
+
+
+Tambah alamat address
 ```
 nano recipients.txt
 ```
+jalankan
+
+
 ```
 npm start
 ```
